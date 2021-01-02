@@ -1,0 +1,86 @@
+
+header {
+  min-height: 100vh;
+  width: 100%;
+  z-index: 1;
+  position: relative;
+}
+
+.overlay-team {
+  position: absolute;
+  width: 100%;
+  min-height: 100vh;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  background: #fff;
+}
+
+.team-container {
+  font-family: "Robot", sans-serif;
+  padding: 24px 0;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.team-container h2 {
+  text-align: center;
+  font-size: 48px;
+  text-transform: uppercase;
+  font-weight: normal;
+  letter-spacing: 8px;
+  background: #222;
+  color: #eee;
+  width: 500px;
+  margin: 48px auto;
+}
+
+.team-container .ceo {
+  text-align: center;
+  padding: 8px;
+}
+
+.team-container .ceo img {
+  width: 200px;
+  height: 200px;
+}
+
+.team-container img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  box-shadow: 0 8px 29px -17px rgba(0, 0, 0, 0.4);
+}
+
+.team-member {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 16px;
+}
+
+.team-container .team-member-name {
+  font-weight: bold;
+  font-size: 22px;
+  margin: 12px 0;
+}
+
+.team-container .ceo .team-member-name {
+  font-size: 28px;
+}
+
+.core-team-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.team-container h3 {
+  text-align: center;
+  margin: 48px 0;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  padding: 24px;
+  text-transform: uppercase;
+  font-weight: normal;
+}
