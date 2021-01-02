@@ -28,14 +28,14 @@ header {
 
 .footer-journal {
   background-color: #000;
-  font-size: 12px;
+  font-size: 10px;
   padding-bottom: 32px;
 }
 .footer-journal img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 65%;
+  width: 95%;
 }
 .list-footer {
   background-color: #000;
