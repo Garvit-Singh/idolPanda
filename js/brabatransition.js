@@ -11,6 +11,7 @@ function PageTransition() {
 }
 
 function contentAnimation() {
+  document.querySelector(".wrapper").classList.remove("active")
   var tl = gsap.timeline();
   tl.from('header',{ duration: 2, translateY: 50, opacity: 0})
 }
@@ -47,5 +48,5 @@ barba.init({
         contentAnimation();
       },
   }],
-  prefetchIgnore: false
+  prefetchIgnore: false,
 })

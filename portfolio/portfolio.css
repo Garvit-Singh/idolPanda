@@ -42,60 +42,13 @@ header {
   width: 100%;
 }
 
-.services {
-  position: relative;
-  margin:0;
-  padding:0;
-  text-align:center;
-  position:relative;
-  background-color: #F2F4F4 ;
-  z-index: 5;
-}
-
-.services svg {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: -1;
-}
-
-.services h1 {
-  padding-top: 10%;
-  opacity: 1;
-}
-
-.services.show h1 {
-  animation: fade-in 1.5s ease-in-out forwards;
-}
-@keyframes fade-in {
-  from {opacity: 0;}
-  to {opacity: 1;}
-}
-
-.services-box img{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 25%;
-}
-
 @media screen and (min-width: 576px) {
-  .services-box p {
-    font-family: sans-serif;
-  }
-
   .footer-port p {
     font-family: sans-serif;
   }
 }
 
 @media screen and (max-width: 576px ) {
-  .services-box p {
-    font-family: sans-serif;
-    font-size: 12px;
-  }
-
   .footer-port p {
     font-family: sans-serif;
     font-size: 12px;
