@@ -16,7 +16,6 @@ function contentAnimation() {
   tl.from('header',{ duration: 2, translateY: 50, opacity: 0})
 }
 
-
 function delay(n) {
   n = n || 2000;
   return new Promise(done => {
@@ -36,17 +35,16 @@ barba.init({
       await delay(1500);
       done();
     },
+
     async enter(data) {
       contentAnimation();
     },
+
     async once(data) {
       contentAnimation();
     }
-  },{
-      name: 'self',
-      enter() {
-        contentAnimation();
-      },
+
   }],
   prefetchIgnore: false,
+  debug: true
 })

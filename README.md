@@ -1,2 +1,0 @@
-# idolPanda
- whole website
